@@ -1,4 +1,6 @@
-'''This code represents a comparison in time between binary search with recursion and normal search in a set of 10,000 integer. The operation is repeated to search for every integer in the 10,000 integers. The time is logged and the total time is represented for comparison.'''
+'''This code represents a comparison in time between binary search with recursion and normal search in a set of 10,000 integer. 
+The operation is repeated to search for every integer in the 10,000 integers. 
+The time is logged and the total time is represented for comparison.'''
 
 
 import random
