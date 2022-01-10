@@ -1,4 +1,4 @@
-'''This code represents a comparison in time between binary search with recursion and normal search in a set of 10,000 integer. 
+'''This code represents a time comparison between binary search with recursion and normal iterative search in a set of 10,000 integer. 
 The operation is repeated to search for every integer in the 10,000 integers. 
 The time is logged and the total time is represented for comparison.'''
 
@@ -6,11 +6,16 @@ The time is logged and the total time is represented for comparison.'''
 import random
 import time
 
+#-----------Iterative search function--------------------------
 
 def normal_search(list, target):
     for i in range(len(list)):
         if list[i] == target:
             return True
+
+
+        
+#------------Binary search with Recursion function--------------
 
 bottom = 1
 top = 10000
